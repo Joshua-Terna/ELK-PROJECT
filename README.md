@@ -61,7 +61,7 @@ node.name: node-1
 cluster.name: winlogs-cluster
 network.host: 0.0.0.0
 discovery.type: single-node
-<br><br/>
+<br></br>
 
 3. Configure kibana.yml
 
