@@ -46,7 +46,7 @@ To build a working monitoring system for Windows Event Logs using the Elastic St
 ---
 
 ## 🖼️ Architecture  
-![System Architecture](assets/diagram.png)  
+![System Architecture](Screenshots/architecture diagram.png)  
 
 ---
 
@@ -66,7 +66,7 @@ discovery.type: single-node
 3. Configure kibana.yml
 
 server.host: "0.0.0.0"
-elasticsearch.hosts: ["http://localhost:9200"]
+elasticsearch.hosts: ["https://localhost:9200"]
 
 
 4. Start Elasticsearch and Kibana
@@ -107,9 +107,9 @@ Applications and Services Logs → Microsoft → Windows → Sysmon/Operational
 
 In Kibana → Fleet → Settings, add Fleet Server
 
-- Host URL = Host’s VirtualBox Ethernet IP
+- Host URL = Host’s VirtualBox Ethernet IP (https://<Ethernet-ip>:8220)
 
-- Output = Elasticsearch endpoint (http://<host-ip>:9200)
+- Output = Elasticsearch endpoint (https://<host-ip>:9200)
 
 Copy Fleet Server enrollment command → run on host
 
