@@ -46,7 +46,7 @@ To build a working monitoring system for Windows Event Logs using the Elastic St
 ---
 
 ## 🖼️ Architecture  
-![System Architecture](Screenshots/architecture diagram.png)  
+![System Architecture](Screenshots/architecturediagram.png)  
 
 ---
 
@@ -92,8 +92,7 @@ ping <vm-ip>
 
 Download Sysmon from Microsoft Sysinternals
 
-Download trusted XML config (e.g. SwiftOnSecurity sysmon-config
-)
+Download trusted XML config (e.g. SwiftOnSecurity sysmon-config)
 
 Install Sysmon
 
