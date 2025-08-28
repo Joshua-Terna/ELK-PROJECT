@@ -149,6 +149,7 @@ Dashboards → curated Elastic Security dashboards
 
 Detections → alerts triggered by Atomic Red Team simulations
 
+---
 
 ## ✅ Results & Conclusion
 
@@ -159,6 +160,8 @@ Elastic Defend detected simulated ATT&CK techniques
 Kibana dashboards enabled interactive visualization and analysis
 
 Conclusion: Elastic Stack provides a solid baseline for Windows log monitoring and security training.
+
+---
 
 ## 🚀 Future Work
 
